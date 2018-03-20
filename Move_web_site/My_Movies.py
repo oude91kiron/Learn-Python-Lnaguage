@@ -34,7 +34,7 @@ midnight_in_paris = media.Movie("Midnight in Paris",
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
-                        "http://www.4usky.com/data/out/96/164872031-toy-story-wallpapers.jpg",
+                        "http://www.4usky.com/data/out/96/164871590-toy-story-wallpapers.jpg",
                         "https://www.youtube.com/watch?v=rNk1Wi8SvNc")
 
 
@@ -47,12 +47,24 @@ The_Wolf_of_Wall_Street = media.Movie("The Wolf of Wall Street",
 
 movies = [the_Proposal, passengers, gladiator, midnight_in_paris, the_mask,toy_story]
 
+
+# programe excution
 fresh_tomatoes.open_movies_page(movies)
 
+"""
+# Test2
+print("The name of the class")
+print""
+print(media.Movie.__name__)
+print""
+print("The name of the module")
+print""
+print(media.Movie.__module__)
+print""
 
 
-
-# For test
+# Test3
 
 #print(gladiator.poster_image_url)
 #toy_story.show_trailer()
+"""
